@@ -1,7 +1,4 @@
-.nav-item:hover.a{
-  color: #feb900;
 
-}
 .shirkicon:hover{
   background: #feb900;
 }
@@ -213,11 +210,22 @@
   font-weight: 500;
 }
 .post-img img{
-  transition: 0.4s;
+  background-color: #1D1D1D;
+  -webkit-transform:scale(1) ;
+  transform: scale(1);
+  background-color: .3s ease-in-out;
+  display: block;
+  overflow: hidden;
 }
-.post-item:hover .post-img img {
+.post-img img:hover{
+  opacity: 25%;
+  -webkit-transform:scale(1.1) ;
   transform: scale(1.1);
+  transition: 0.5s;
 }
+
+
+
 .post-title{
   font-size: 24px;
   color:#52565e;
